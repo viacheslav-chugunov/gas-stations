@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:shadowColor">?attr/colorOnPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+
+    <style name="SmallText" parent="BaseText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="MediumText" parent="BaseText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="BigText" parent="BaseText">
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="LargeText" parent="BaseText">
+        <item name="android:textSize">28sp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="Toolbar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlNormal">?attr/colorOnPrimary</item>
+        <item name="titleTextColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="Button" parent="MediumText" >
+        <item name="android:background">@drawable/shape_button</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:shadowColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="StoreButton" parent="Button">
+        <item name="android:background">@drawable/shape_button_store</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+        <item name="android:shadowColor">?attr/colorOnPrimary</item>
+    </style>
+
+    <style name="TabLayout" >
+        <item name="tabIndicatorColor">?attr/colorOnSecondary</item>
+        <item name="tabIndicatorHeight">4dp</item>
+        <item name="tabPadding">16dp</item>
+        <item name="tabBackground">?attr/colorPrimary</item>
+    </style>
+
+    <style name="EditText"  parent="MediumText">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:shadowColor">?attr/colorPrimary</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <style name="StoreEditText"  parent="EditText">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:shadowColor">?attr/colorOnPrimary</item>
+        <item name="android:textColor">?attr/colorOnPrimary</item>
+    </style>
+
+</resources>

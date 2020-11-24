@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Gas Stations</string>
+    <string name="store">Store</string>
+    <string name="stats">Stats</string>
+    <string name="add">Add</string>
+    <string name="show_liters">Show liters</string>
+    <string name="show_visits">Show visits</string>
+    <string name="address">Address</string>
+    <string name="visits">Visits</string>
+    <string name="liters">Liters</string>
+    <string name="supplier">Supplier</string>
+    <string name="fuel_type">Fuel type</string>
+    <string name="fuel_count">Fuel count</string>
+    <string name="fuel_cost">Fuel cost USD</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="invalid_edit_input">Incorrect input</string>
+    <string name="select">Select</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
+    <string name="unknown">Unknown</string>
+    <string name="cannot_define_geolocation">Cannot define your geolocation</string>
+    <string name="user_location">You are here</string>
+    <string name="plus_visit">Plus visit</string>
+    <string name="plus_liters">Plus liters</string>
+    <string name="count">Count</string>
+    <string name="note_updated">Note updated</string>
+    <string name="append_new">Append new</string>
+    <string name="data_synchronized">Data was successfully synchronized</string>
+    <string name="refresh">Refresh</string>
+    <string name="your_location">You are here</string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/append"
+    app:startDestination="@id/addressFragment">
+
+    <fragment
+        android:id="@+id/addressFragment"
+        android:name="com.dev.gasstations.app.presentation.append.AddressFragment"
+        android:label="fragment_address"
+        tools:layout="@layout/fragment_address" >
+        <action
+            android:id="@+id/actionToAppendFragment"
+            app:destination="@id/appendFragment"
+            app:popUpTo="@id/append" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/appendFragment"
+        android:name="com.dev.gasstations.app.presentation.append.AppendFragment"
+        android:label="fragment_append"
+        tools:layout="@layout/fragment_append" >
+        <action
+            android:id="@+id/actionToAddressFragment"
+            app:destination="@id/addressFragment"
+            app:popUpTo="@id/append" />
+    </fragment>
+
+</navigation>
